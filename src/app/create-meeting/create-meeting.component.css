@@ -1,0 +1,100 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+  .container{ 
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/027/105/516/non_2x/empty-billboard-in-meeting-room-free-photo.jpg"); */
+    background-size:cover;
+    height:100vh;
+    padding:0;
+    object-fit: cover;
+   font-family: 'Outfit', sans-serif;
+   border:1px solid black;
+  }
+
+  .form-container{
+    margin:10px;
+    padding:10px;
+    box-shadow: -3px -3px 9px #0f1f16a2,
+              3px 3px 10px rgba(222, 226, 228, 0.671);
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+  }
+
+  img{
+    filter: brightness(55%);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+  .title{
+    text-align:center;
+    font-size:xx-large;
+    color:whitesmoke;
+    /* position:relative; */
+    /* top:50px; */
+
+
+  }
+    .title{
+      font-weight: bolder;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .meetingform{
+      background: transparent;
+      margin: auto;
+    }
+
+    label, #time, #date, button  {
+      font-weight: bold;
+      font-size: large;
+      font-family: 'Outfit', sans-serif;
+      text-shadow: 5px 5px 20px rgb(236, 226, 226);
+      color: aliceblue;
+      margin-bottom: 5px;
+    }
+    input[type="time"]::-webkit-calendar-picker-indicator, input[type="date"]::-webkit-calendar-picker-indicator{
+      filter: invert(68%) sepia(53%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(90%);
+    }
+  
+  
+    input, select {
+      background: transparent;
+      padding: 10px;
+      
+      border-radius: 5px;
+      box-shadow: -3px -3px 9px #93cdefa2,
+                3px 3px 10px rgba(219, 228, 228, 0.671);
+      width: 90%;
+    }
+  
+    button {
+      
+      margin-top: 20px;
+      background: transparent;
+      padding: 10px;
+      
+      border-radius: 5px;
+      box-shadow: -3px -3px 9px #4596c5a2,
+                3px 3px 10px rgba(35, 221, 206, 0.671);
+      width: 50%;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      background-color: #70c2e9;
+    }
+

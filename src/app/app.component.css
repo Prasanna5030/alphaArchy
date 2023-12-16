@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+
+
+.footer {
+    background-color: rgb(45, 43, 43);
+    /* display: inline-block; */
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    /* text-align: center; */
+    /* background:transparent; */
+    color:antiquewhite
+}
+
+para{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+span{
+    position:fixed;
+    right:0;
+    bottom:2;
+}
